@@ -33,9 +33,7 @@ Anything is helpfull (see [here](https://github.com/jviaches/Reflection/blob/mas
 - create/update documentation
 
 ## Hardware and Software
-At this moment decided to go with Raspberry Pi 2 Model B as this device supported by Android Things (Google's IOT platform).
-
-We using Android Things and Kotlin for development. The nice thing about Android Things though, you need to flash it once on your Raspberry Pi 2 and then any update will automatically downloaded and installed by your device. Don't forget to configure WIFI or LAN settings while flashing.
+TBD..
 
 Also the priority is move to voice control already at early stages and besides fun parts (like "show me youtube video" while shaving), it can also control ligts, smart thermostat( like Nest) and others IOT devices from different vendors.
 
