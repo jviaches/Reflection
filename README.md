@@ -1,7 +1,7 @@
 <h1 align="center">Reflection - Visual center for Home Automation</h1>
 
 <p align="center">
-powered by the Raspberry Pi and Android Things (Google IOT platform)
+powered by the Raspberry Pi and Angular
 </p>
 
 
