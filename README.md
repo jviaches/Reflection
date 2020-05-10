@@ -1,27 +1,48 @@
-# ReflAction
+<h1 align="center">Reflection - Visual center for Home Automation</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+<p align="center">
+powered by the Raspberry Pi and Android Things (Google IOT platform)
+</p>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## What it is all about
+Google Assistent and Amazon Alexa (among others) are becoming part of our daily routine and it is designed to make our life more comfotable and convinient by using voice commands. You can listen music, control you home with voice commands and ask for some information.
 
-## Code scaffolding
+The critical part that is missing here is visual representation. The purpose of project is address visual aspect and help user to evluate persived information faster and in more efficiaent manner.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+One of pottential points we trying to address (amont many others):
 
-## Build
+- "show me home status". It can potentially show all your devices statuses with their names (and commands can be used for each device).
+This projects has been created to allow DYI developers have their own voice controlled home automation. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- "show me video in Youtube".
+- "track UPS status for package XXX"
 
-## Running unit tests
+and many others..
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Images
+TBD    
 
-## Running end-to-end tests
+## Contribution
+Anything is helpfull (see [here](https://github.com/jviaches/Reflection/blob/master/CONTRIBUTING.md) how): 
+- create tickets, 
+- report bugs
+- fix bugs
+- code features
+- translations
+- create/update documentation
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Hardware and Software
+At this moment decided to go with Raspberry Pi 2 Model B as this device supported by Android Things (Google's IOT platform).
 
-## Further help
+We using Android Things and Kotlin for development. The nice thing about Android Things though, you need to flash it once on your Raspberry Pi 2 and then any update will automatically downloaded and installed by your device. Don't forget to configure WIFI or LAN settings while flashing.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Also the priority is move to voice control already at early stages and besides fun parts (like "show me youtube video" while shaving), it can also control ligts, smart thermostat( like Nest) and others IOT devices from different vendors.
+
+## RoadMap
+Currently we are in POC (prof of concept) stage to make sure we not only able to achieve our target, but also to choose right tools.
+- Create Android Things image for Rasbery Pi Model B which include clock
+- Voice commands for turn screen On/Off
+- Voice command to set clock (since Rasbery does not have battery to hold current clock)
+
+After completion of POC, we will update publish Roadmap as we see it. Stay tuned :)
